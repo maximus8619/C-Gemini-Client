@@ -17,7 +17,7 @@ This project demonstrates how to interact with the Google Gemini API using C++. 
 
 1. **Clone the Repository** (if applicable):
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/maximus8619/C-Gemini-Client.git
    ```
 
 2. **Install Dependencies**:
