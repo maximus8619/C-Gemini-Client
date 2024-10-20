@@ -92,14 +92,13 @@ std::string interactWithGeminiAPI(const std::string& api_key, const std::string&
 
 int main() {
     // Retrieve the API key from environment variables
-    char* api_key_env = nullptr;
-    size_t len = 0;
-    if (_dupenv_s(&api_key_env, &len, "GEMINI_API_KEY") != 0 || api_key_env == nullptr) {
-        std::cerr << "API key not found in environment variables." << std::endl;
-        return 1;
-    }
-    std::string api_key = api_key_env;
-    free(api_key_env);
+const char* api_key_env = getenv("GEMINI_API_KEY");
+if (api_key_env == nullptr) {
+    std::cerr << "API key not found in environment variables." << std::endl;
+    return 1;
+}
+std::string api_key = api_key_env;
+
 
     // Warning: Ensure that the API key is kept secure and not exposed in logs or error messages
     if (api_key.empty()) {
