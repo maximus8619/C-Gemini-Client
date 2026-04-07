@@ -20,8 +20,3 @@ Dieses Repository bündelt den aktuellen Quell- und Dateistand für 'C-Gemini-Cl
 
 ## Weitere Dokumentation
 - PROJECT_DOSSIER.md hält die technische Einordnung, Struktur und Pflegehinweise in kompakter Form fest.
-
-## Technische Funktionsweise
-- Eine ausfuehrlichere Ablaufbeschreibung liegt in `CODE_FUNKTIONSWEISE.md`.
-- Beobachtetes technisches Profil: Allgemeines Repository (Unklare oder gemischte Struktur).
-- Primaere Einstiegspunkte im aktuellen Stand: `Client.c++`, `CODE_FUNKTIONSWEISE.md`, `PROJECT_DOSSIER.md`, `README.md`.
