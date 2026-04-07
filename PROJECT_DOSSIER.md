@@ -6,7 +6,7 @@ Dieses Dossier beschreibt den technisch beobachtbaren Stand des Repositories 'C-
 ## Technisches Profil
 - Projekttyp: Projekt-Repository
 - Default-Branch: 'main'
-- Ausgewerteter Primärbestand: 2 Dateien
+- Ausgewerteter Primärbestand: 3 Dateien
 - projektspezifischer Dateibestand
 
 ## Beobachtete Struktur

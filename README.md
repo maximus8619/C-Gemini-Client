@@ -6,10 +6,10 @@ Dieses Repository bündelt den aktuellen Quell- und Dateistand für 'C-Gemini-Cl
 ## Aktueller Stand
 - Default-Branch: 'main'
 - Technischer Schwerpunkt: projektspezifischer Dateibestand
-- Primäre Root-Dateien: Client.c++, README.md
+- Primäre Root-Dateien: Client.c++, PROJECT_DOSSIER.md, README.md
 - Relevante Top-Level-Verzeichnisse: keine Top-Level-Verzeichnisse
-- Beobachtete Dateitypen: .md (1), .c++ (1)
-- Ausgewerteter Primärbestand: 2 Dateien ohne generierte oder fremde Artefaktpfade
+- Beobachtete Dateitypen: .md (2), .c++ (1)
+- Ausgewerteter Primärbestand: 3 Dateien ohne generierte oder fremde Artefaktpfade
 
 ## Struktur
 - 'Client.c++': wichtige Root-Datei des aktuellen Projektstands.
